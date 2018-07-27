@@ -1,0 +1,46 @@
+body{
+	color:red;
+}
+main{
+	border:1px solid rgba(255,0,0,0.2);
+	margin: 0 auto;
+	width: 700px;
+	background-color: #f2f2f2;
+}
+
+main nav ul{
+	list-style:none;
+	margin: 0;
+	padding:0;
+}
+
+main nav ul li{
+	display:inline-block;
+}
+
+main nav ul li a{
+	text-decoration: none;
+	padding:5px;
+	display:block;
+	font-weight: bold;
+	border-bottom:1px solid rgba(255,0,0,0.2);
+	border-right:1px solid rgba(255,0,0,0.2);
+	border-left:1px solid rgba(255,0,0,0.2);
+}
+
+main nav ul li a:hover{
+	background-color: rgba(255,0,0,0.6);
+	color:white;
+	cursor: pointer;
+}
+
+form{
+	padding:10px;
+	font-weight: bold;
+}
+form input{
+	font-weight: bold;
+}
+#green{
+	color:green;
+}
